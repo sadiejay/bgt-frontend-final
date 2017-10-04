@@ -6,23 +6,38 @@ $white: #FFF9F6;
 $blue: #4ABD9D;
 $grey: #89867A;
 
+
+
+
+
+//									insert images
 @function path($src, $dir: img){
 	$src: unquote($src);
 	@return url(unquote("..")/$dir/$src);
 }
-// to insert img
-// .logo {
-// 		path('logo.png')left top no-repeat;
-//	}
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
 
+
+
+
+
+//								no bullet points
 @mixin no-bullets() {
 	list-style: none;
 }
 
-// to use
-//	ul {
-//	@include no-bullets;
-// }
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+
+
+
+
 
 // 							shades and tints
 
