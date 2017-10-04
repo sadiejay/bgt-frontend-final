@@ -15,6 +15,15 @@ $grey: #89867A;
 // 		path('logo.png')left top no-repeat;
 //	}
 
+@mixin no-bullets() {
+	list-style: none;
+}
+
+// to use
+//	ul {
+//	@include no-bullets;
+// }
+
 @import "blog";
 
 * {
