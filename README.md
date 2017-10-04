@@ -13,3 +13,6 @@
 * Atom
 * git & GitHub
 * Photoshop
+
+## Resources used:
+* [MY SASS EXTENDS, MIXINS, AND FUNCTIONS](https://selfteach.me/sass-extends-mixins-functions/)
