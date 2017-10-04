@@ -6,6 +6,15 @@ $white: #FFF9F6;
 $blue: #4ABD9D;
 $grey: #89867A;
 
+@function path($src, $dir: img){
+	$src: unquote($src);
+	@return url(unquote("..")/$dir/$src);
+}
+// to insert img
+// .logo {
+// 		path('logo.png')left top no-repeat;
+//	}
+
 @import "blog";
 
 * {
