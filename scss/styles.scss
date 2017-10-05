@@ -238,6 +238,9 @@ trip__individual4{
 .about{
 margin:20px 0;
 display:flex;
+width: 100%;
+height: calc(100%-40px);
+background-color: darkest($orange);
 
 
   .about__img{

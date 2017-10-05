@@ -115,7 +115,10 @@ trip__individual4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  width: 100%;
+  height: calc(100%-40px);
+  background-color: #993700; }
   .about .about__img {
     background-color: #FF5C00;
     width: 50vw;
