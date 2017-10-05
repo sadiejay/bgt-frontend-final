@@ -43,13 +43,15 @@ nav {
   nav.nav__logo {
     display: inline;
     text-align: left; }
-  nav li {
-    display: inline;
-    padding: 0 .5rem;
-    font-size: 1.1rem; }
-    nav li a {
-      list-style: none;
-      text-decoration: none; }
+  nav ul {
+    color: #1A1922; }
+    nav ul li {
+      display: inline;
+      padding: 0 .5rem;
+      font-size: 1.1rem; }
+      nav ul li a {
+        list-style: none;
+        text-decoration: none; }
 
 .video {
   background-color: #1A1922;

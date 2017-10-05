@@ -137,15 +137,20 @@ nav{
     text-align: left;
   }
 
-  li{
-    display: inline;
-    //margin: ;
-    padding: 0 .5rem;
-    font-size: 1.1rem;
+	ul{
+		color: $black;
 
-		a{
-			@include no-bullets;
-			@include no-underline;
+  	li{
+    	display: inline;
+    	//margin: ;
+    	padding: 0 .5rem;
+    	font-size: 1.1rem;
+
+			a{
+				@include no-bullets;
+				@include no-underline;
+
+			}
 
 		}
   }
