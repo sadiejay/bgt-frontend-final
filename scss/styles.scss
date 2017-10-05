@@ -76,6 +76,12 @@ ul {
 */
 
 
+//									no underline
+@mixin no-underline(){
+	text-decoration: none;
+}
+
+
 
 
 // 							shades and tints
@@ -132,11 +138,16 @@ nav{
   }
 
   li{
-    list-style-type:none;
     display: inline;
     //margin: ;
     padding: 0 .5rem;
     font-size: 1.1rem;
+
+		a{
+			@include no-bullets;
+			@include no-underline;
+
+		}
   }
 
 } //nav
