@@ -83,6 +83,9 @@ nav {
   background-color: #FF5C00; }
 
 .trip__grid {
+  background-color: white;
+  width: 100%;
+  height: calc(100%-40px);
   display: grid;
   grid-template-colums: 1fr 1fr;
   grid-template-rows: auto;
