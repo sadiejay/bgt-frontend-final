@@ -112,6 +112,13 @@ ul {
 		color: darker($red);
 	}
 */
+header {
+  max-height: 1.8rem;
+  padding: 0px 20px; }
+  header h1 {
+    font-size: 1.78rem;
+    text-align: right; }
+
 .about {
   display: -webkit-box;
   display: -webkit-flex;
@@ -128,16 +135,13 @@ ul {
     -webkit-flex: 1 1 50%;
     -ms-flex: 1 1 50%;
     flex: 1 1 50%;
-    height: 90%;
-    padding: 20px;
-    margin-right: 5px; }
+    height: 100%; }
     .about .about__img img {
       path: "founder.jpg";
       width: 90vw; }
   .about .about__text {
     background-color: #89867A;
-    height: 90%;
-    padding: 20px;
+    height: 100%;
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 50%;
     -ms-flex: 1 1 50%;
@@ -244,7 +248,7 @@ nav {
     display: inline;
     text-align: right; }
   nav h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: inline; }
   nav.nav__logo {
     display: inline;
