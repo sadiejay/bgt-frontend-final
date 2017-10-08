@@ -109,6 +109,29 @@ ul {
 		color: darker($red);
 	}
 */
+.about {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: calc(100%-40px);
+  background-color: #993700; }
+  .about .about__img {
+    background-color: #FF5C00;
+    width: 50vw;
+    height: 300px;
+    padding: 20px;
+    margin-right: 5px; }
+  .about .about__text {
+    background-color: #89867A;
+    width: 50vw;
+    height: 300px;
+    padding: 20px; }
+    .about .about__text h2 {
+      text-align: center; }
+
 /* 							to insert img
 .logo {
  		path('logo.png')left top no-repeat;/

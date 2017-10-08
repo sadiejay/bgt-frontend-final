@@ -1,1 +1,31 @@
-@import "var"
+@import "var";
+
+
+.about{
+margin:20px 0;
+display: flex;
+width: 100%;
+height: calc(100%-40px);
+background-color: darkest($orange);
+
+
+  .about__img{
+    background-color: $orange;
+    width: 50vw;
+    height: 300px;
+    padding: 20px;
+    margin-right: 5px;
+  }
+
+  .about__text{
+    background-color: $grey;
+    width: 50vw;
+    height: 300px;
+    padding: 20px;
+
+    h2{
+      text-align: center;
+    }
+  }
+
+}
