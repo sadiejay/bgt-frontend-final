@@ -14,45 +14,6 @@ ul {
 		color: darker($red);
 	}
 */
-* {
-  margin: 0;
-  padding: 0;
-  border: 0; }
-
-body {
-  font-family: Lato;
-  background-color: #FFF9F6; }
-
-nav {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FF5C00;
-  width: 100%; }
-  nav.nav__logo {
-    display: inline;
-    text-align: right; }
-  nav h1 {
-    font-size: 2rem;
-    display: inline; }
-  nav.nav__logo {
-    display: inline;
-    text-align: left; }
-  nav ul {
-    color: #1A1922; }
-    nav ul li {
-      display: inline;
-      padding: 0 .5rem;
-      font-size: 1.1rem; }
-      nav ul li a {
-        list-style: none;
-        text-decoration: none; }
-
 .video {
   background-color: #1A1922;
   width: 100%;
@@ -132,3 +93,132 @@ trip__individual4 {
     padding: 20px; }
     .about .about__text h2 {
       text-align: center; }
+
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+*/
+/*		to use:
+&:hover {
+		color: darker($red);
+	}
+*/
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+*/
+/*		to use:
+&:hover {
+		color: darker($red);
+	}
+*/
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+*/
+/*		to use:
+&:hover {
+		color: darker($red);
+	}
+*/
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+*/
+/*		to use:
+&:hover {
+		color: darker($red);
+	}
+*/
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+*/
+/*		to use:
+&:hover {
+		color: darker($red);
+	}
+*/
+/* 							to insert img
+.logo {
+ 		path('logo.png')left top no-repeat;/
+}
+*/
+/* 				to use
+ul {
+	@include no-bullets;
+ }
+*/
+/*		to use:
+&:hover {
+		color: darker($red);
+	}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body {
+  font-family: Lato;
+  background-color: #FFF9F6; }
+
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FF5C00;
+  width: 100%; }
+  nav.nav__logo {
+    display: inline;
+    text-align: right; }
+  nav h1 {
+    font-size: 2rem;
+    display: inline; }
+  nav.nav__logo {
+    display: inline;
+    text-align: left; }
+  nav ul {
+    color: #1A1922; }
+    nav ul li {
+      display: inline;
+      padding: 0 .5rem;
+      font-size: 1.1rem; }
+      nav ul li a {
+        list-style: none;
+        text-decoration: none; }
