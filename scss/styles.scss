@@ -101,8 +101,13 @@ ul {
 */
 
 
-
+@import "var";
+@import "about";
 @import "blog";
+@import "blog-single";
+@import "tour";
+@import "tour-single";
+@import "contact";
 
 * {
 	margin: 0;
