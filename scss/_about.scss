@@ -2,26 +2,35 @@
 
 
 .about{
-margin:20px 0;
+
 display: flex;
+flex-wrap: wrap;
 width: 100%;
-height: calc(100%-40px);
+//height: 100vh;
 background-color: darkest($orange);
 
 
   .about__img{
     background-color: $orange;
-    width: 50vw;
-    height: 300px;
+    flex: 1 1 50%;
+    //width: 50vw;
+    height: 90%;
     padding: 20px;
     margin-right: 5px;
+
+
+    & img{
+      path: ('founder.jpg');
+      width: 90vw;
+    }
   }
 
   .about__text{
     background-color: $grey;
-    width: 50vw;
-    height: 300px;
+    //width: 50vw;
+    height: 90%;
     padding: 20px;
+    flex: 1 1 50%;
 
     h2{
       text-align: center;
