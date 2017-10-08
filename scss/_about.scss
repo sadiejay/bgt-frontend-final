@@ -1,6 +1,20 @@
 @import "var";
 
+//header
+header{
+  max-height: 1.8rem;
+  padding: 0px 20px;
+  h1{
+    font-size: 1.78rem;
+    text-align: right;
 
+  }
+
+}
+
+
+
+// about
 .about{
 
 display: flex;
@@ -14,9 +28,9 @@ background-color: darkest($orange);
     background-color: $orange;
     flex: 1 1 50%;
     //width: 50vw;
-    height: 90%;
-    padding: 20px;
-    margin-right: 5px;
+    height: 100%;
+    //padding: 20px;
+    //margin-right: 5px;
 
 
     & img{
@@ -28,8 +42,8 @@ background-color: darkest($orange);
   .about__text{
     background-color: $grey;
     //width: 50vw;
-    height: 90%;
-    padding: 20px;
+    height: 100%;
+    //padding: 20px;
     flex: 1 1 50%;
 
     h2{
