@@ -119,3 +119,23 @@ background-color: $orange;
   }
 
 }
+
+
+//////////// blog
+.blog{
+  h2{
+    text-align: center;
+  }
+
+  .blog__i{
+  display: flex;
+  flex-wrap: wrap;
+
+    .blog__thumb img{
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+    }
+
+  }
+}
