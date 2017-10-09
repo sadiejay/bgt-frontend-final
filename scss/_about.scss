@@ -52,7 +52,7 @@ background-color: $orange;
   }
 
   .about__text{
-    background-color: $grey;
+    background-color: lighter($yellow);
     //width: 50vw;
     height: 100%;
     //padding: 20px;
@@ -110,7 +110,7 @@ padding: 15px 15px;
 ////////////// contact us
 .contact{
   padding: 15px 15px;
-  background-color: lighter($blue);
+  background-color: lightest($blue);
 
   h2{
     text-align: center;
@@ -158,8 +158,8 @@ padding: 15px 15px;
 ///////////// footer
 footer{
   padding: 15px 15px;
-  border: 2px $black solid;
-  background-color: darker($orange);
+  border-top: 15px $white solid;
+  background-color: lighter($teal);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -187,7 +187,7 @@ footer{
           }
 
           &:hover{
-            color: $blue;
+            color: $orange;
           }
         }
 

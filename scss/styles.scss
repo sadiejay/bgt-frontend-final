@@ -29,7 +29,7 @@ nav{
   display: flex;
   align-items: center;
 	justify-content: space-evenly;
-  background-color: lighter($blue);
+  background-color: lighter($teal);
   width: 100%;
 
   &.nav__logo{
@@ -69,7 +69,9 @@ nav{
 				}
 
 				&:hover{
-					background-color: darker($orange);
+					//background-color: darker($blue);
+					border-bottom:: 1px solid darker($blue);
+					//padding: 5px;
 				}
 			}
 
