@@ -180,6 +180,17 @@ footer{
         @include no-bullets;
         padding: 15px 15px;
 
+        a{
+
+          &:link, &:visited{
+            color: white;
+          }
+
+          &:hover{
+            color: $blue;
+          }
+        }
+
       }
     }
   }

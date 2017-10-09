@@ -281,6 +281,10 @@ footer {
     footer .footer__contact ul li {
       list-style: none;
       padding: 15px 15px; }
+      footer .footer__contact ul li a:link, footer .footer__contact ul li a:visited {
+        color: white; }
+      footer .footer__contact ul li a:hover {
+        color: #4ABD9D; }
   footer .footer__blog {
     display: none; }
     footer .footer__blog .blog__thumb img {
