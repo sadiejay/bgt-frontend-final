@@ -222,7 +222,7 @@ header {
     .contact #contact fieldset {
       padding: 15px 0; }
       .contact #contact fieldset input {
-        font-family: "Lato";
+        font: inherit;
         font-size: .90rem; }
       .contact #contact fieldset .input__name {
         width: 100%;
@@ -235,7 +235,29 @@ header {
         height: 150px; }
       .contact #contact fieldset #button__contact #button__clear {
         background-color: #FF5C00;
-        padding: 15px 0; }
+        padding: 15px 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; }
+
+footer {
+  padding: 15px 15px;
+  border: 2px #1A1922 solid;
+  background-color: #bb4300;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  footer footer > * {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 3fr;
+    -ms-flex: 1 1 3fr;
+    flex: 1 1 3fr; }
 
 /* 							to insert img
 .logo {

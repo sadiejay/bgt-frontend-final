@@ -122,8 +122,9 @@ padding: 15px 15px;
 
     fieldset{
       padding: 15px 0;
+
        input{
-         font-family: "Lato";
+         font: inherit;
          font-size: .90rem;
        }
 
@@ -145,7 +146,25 @@ padding: 15px 15px;
       #button__contact #button__clear{
         background-color: $orange;
         padding: 15px 0;
+        appearance: none;
       }
     }
   }
+}
+
+
+
+///////////// footer
+footer{
+  padding: 15px 15px;
+  border: 2px $black solid;
+  background-color: darker($orange);
+  display: flex;
+  flex-direction: column;
+
+  footer > *{
+    flex: 1 1 3fr;
+  }
+
+  
 }
