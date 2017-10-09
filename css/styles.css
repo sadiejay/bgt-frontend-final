@@ -181,6 +181,24 @@ header {
   .facts ul li {
     padding: 15px 0; }
 
+.testimonial {
+  padding: 15px 15px; }
+  .testimonial h2 {
+    text-align: center; }
+  .testimonial ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .testimonial ul li {
+      padding: 15px 0;
+      list-style: none; }
+
 /* 							to insert img
 .logo {
  		path('logo.png')left top no-repeat;/

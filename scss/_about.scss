@@ -79,3 +79,22 @@ background-color: $orange;
       }
     }
 }
+//////////// testimonials
+
+.testimonial{
+
+padding: 15px 15px;
+  h2{
+    text-align: center;
+  }
+
+    ul{
+      display: flex;
+      flex-direction: column;
+
+      li{
+        padding: 15px 0;
+        @include no-bullets;
+      }
+    }
+}
