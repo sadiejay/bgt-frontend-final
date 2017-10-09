@@ -754,6 +754,9 @@ ul {
 .contact h2 {
   text-align: right; }
 
+.contact input .input__message {
+  height: 20px; }
+
 * {
   margin: 0;
   padding: 0;
