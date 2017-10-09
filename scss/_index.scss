@@ -15,6 +15,10 @@
   display: flex;
   padding: .5rem;
 
+  & button:hover{
+    background-color: darker($orange);
+  }
+
 }
 
 .banner__text{
@@ -123,18 +127,52 @@ background-color: $orange;
 
 //////////// blog
 .blog{
-  h2{
-    text-align: center;
-  }
-
-  .blog__i{
+  padding: 15px 15px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+  h2{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+
+  }
+
+
+  .blog__i{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 1 33.3333%;
+  //background-color: $yellow;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
 
     .blog__thumb img{
       width: 90px;
       height: 90px;
       object-fit: cover;
+    }
+
+  & button:hover{
+    background-color: darker($orange);
+  }
+
+  a{
+    @include no-underline;
+
+    &:link, &:visited{
+      color: $white;
+    }
+
+
     }
 
   }

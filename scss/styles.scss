@@ -62,7 +62,7 @@ nav{
 			 a{
 				color: $black;
 
-				&:link, &:visited{
+				&:link, &:visited, &:active{
 					text-decoration: none;
 					color: $black;
 
