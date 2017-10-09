@@ -166,6 +166,18 @@ footer{
     flex: 1 1 3fr;
   }
 
+  .footer__contact{
+
+    ul{
+      display:flex;
+
+
+      li{
+        @include no-bullets;
+        padding: 15px 15px;
+      }
+    }
+  }
 
   .blog__thumb img{
     width: 90px;

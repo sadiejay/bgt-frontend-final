@@ -258,6 +258,14 @@ footer {
     -webkit-flex: 1 1 3fr;
     -ms-flex: 1 1 3fr;
     flex: 1 1 3fr; }
+  footer .footer__contact ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    footer .footer__contact ul li {
+      list-style: none;
+      padding: 15px 15px; }
   footer .blog__thumb img {
     width: 90px;
     height: 90px;
