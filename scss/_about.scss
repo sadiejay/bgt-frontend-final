@@ -61,3 +61,21 @@ background-color: $orange;
   }
 
 }
+
+
+//////////// facts
+.facts{
+
+  h2{
+    text-align: center;
+  }
+
+    ul{
+      display: flex;
+      flex-direction: column;
+
+      li{
+        padding: 15px 0;
+      }
+    }
+}
