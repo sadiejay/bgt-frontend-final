@@ -161,28 +161,38 @@ footer{
   background-color: darker($orange);
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 
   footer > *{
     flex: 1 1 3fr;
   }
 
   .footer__contact{
-
+    
     ul{
       display:flex;
+      justify-content: space-evenly;
+      align-items: center;
 
 
       li{
         @include no-bullets;
         padding: 15px 15px;
+
       }
     }
   }
 
-  .blog__thumb img{
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
 
+  .footer__blog{
+    display: none;
+
+    .blog__thumb img{
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+
+    }
   }
+
 }
