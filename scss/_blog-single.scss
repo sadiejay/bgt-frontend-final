@@ -1,5 +1,16 @@
 @import "var";
 
+///////////article
+.article{
+  padding: 15px 15px;
+  & .article__text{
+    & p{
+      padding: 15px 0px;
+    }
+  }
+}
+
+
 ///////////// footer
 footer {
   padding: 15px 15px;

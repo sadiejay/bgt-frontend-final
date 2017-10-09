@@ -452,6 +452,11 @@ ul {
 		color: darker($red);
 	}
 */
+.article {
+  padding: 15px 15px; }
+  .article .article__text p {
+    padding: 15px 0px; }
+
 footer {
   padding: 15px 15px;
   border-top: 15px #FFF9F6 solid;
