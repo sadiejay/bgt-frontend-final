@@ -48,34 +48,43 @@ ul {
   color: #FFF9F6;
   background-color: #FF5C00; }
 
-.trip__grid {
-  background-color: #8e83f2;
-  width: 100%;
-  height: calc(100%-40px);
+/*
+.trip__grid{
+	background-color: lightest($blue);
+	width: 100%;
+	height: calc(100%-40px);
   display: grid;
   grid-template-colums: 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: trip__1 trip__2 trip__3 trip__4;
+  grid-template-areas:
+   trip__1 trip__2
+   trip__3 trip__4;
   grid-gap: 2rem 2rem;
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
-.trip__thumb {
-  background-color: #150B6B;
-  width: 100px;
-  height: 100px; }
+.trip__thumb{
+  background-color: $blue;
+  width:100px;
+  height: 100px;
+}
 
-trip__individual1 {
-  grid-area: trip__1; }
+trip__individual1{
+  grid-area: trip__1;
+}
+trip__individual2{
+  grid-area: trip__2;
 
-trip__individual2 {
-  grid-area: trip__2; }
+}
+trip__individual3{
+  grid-area: trip__3;
 
-trip__individual3 {
-  grid-area: trip__3; }
+}
+trip__individual4{
+  grid-area: trip__4;
 
-trip__individual4 {
-  grid-area: trip__4; }
-
+}
+*/
 .about {
   display: -webkit-box;
   display: -webkit-flex;
