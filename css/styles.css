@@ -751,6 +751,9 @@ ul {
 		color: darker($red);
 	}
 */
+.contact h2 {
+  text-align: right; }
+
 * {
   margin: 0;
   padding: 0;
