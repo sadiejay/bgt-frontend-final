@@ -486,7 +486,8 @@ ul {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 35px; }
     .blog .blog__i .blog__thumb img {
       width: 90px;
       height: 90px;
