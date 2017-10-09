@@ -667,6 +667,26 @@ ul {
 		color: darker($red);
 	}
 */
+.mask {
+  background: #4ABD9D;
+  width: 100px;
+  height: 100px; }
+
+.fb--mask {
+  -webkit-mask: url("../img/fb.svg") center center no-repeat;
+  mask: url("../img/fb.svg") center center no-repeat;
+  z-index: 4; }
+
+.insta--mask {
+  -webkit-mask: url("../img/insta.svg") center center no-repeat;
+  mask: url("../img/insta.svg") center center no-repeat;
+  z-index: 4; }
+
+.yt--mask {
+  -webkit-mask: url("../img/yt.svg") center center no-repeat;
+  mask: url("../img/yt.svg") center center no-repeat;
+  z-index: 4; }
+
 /* 							to insert img
 .logo {
  		path('logo.png')left top no-repeat;/

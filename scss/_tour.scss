@@ -1,1 +1,24 @@
-@import "var"
+@import "var";
+
+
+///////// footer
+.mask {
+  background: $teal;
+  width: 100px;
+  height: 100px;
+}
+
+.fb--mask {
+  mask: url('../img/fb.svg') center center no-repeat;
+  z-index: 4;
+}
+
+.insta--mask {
+  mask: url('../img/insta.svg') center center no-repeat;
+  z-index: 4;
+}
+
+.yt--mask {
+  mask: url('../img/yt.svg') center center no-repeat;
+  z-index: 4;
+}
