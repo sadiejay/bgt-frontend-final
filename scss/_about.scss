@@ -166,5 +166,11 @@ footer{
     flex: 1 1 3fr;
   }
 
-  
+
+  .blog__thumb img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+
+  }
 }
