@@ -29,14 +29,64 @@
   position: relative;
   display: inline-block;
 
+  & a{
+    //content: '';
+    //position: relative;
+    //display: inline-block;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      
+      }
+    }
+
 }
 
 .insta--mask {
   mask: url('../img/insta.svg') center center no-repeat;
   z-index: 4;
+  position: relative;
+  display: inline-block;
+
+  & a{
+    //content: '';
+    //position: relative;
+    //display: inline-block;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
 }
 
 .yt--mask {
   mask: url('../img/yt.svg') center center no-repeat;
   z-index: 4;
+  position: relative;
+  display: inline-block;
+
+  & a{
+    //content: '';
+    //position: relative;
+    //display: inline-block;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
 }
