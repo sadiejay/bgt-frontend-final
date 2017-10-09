@@ -28,7 +28,8 @@ body{
 nav{
   display: flex;
   align-items: center;
-  background-color: $orange;
+	justify-content: space-evenly;
+  background-color: lighter($blue);
   width: 100%;
 
   &.nav__logo{
@@ -54,11 +55,22 @@ nav{
     	//margin: ;
     	padding: 0 .5rem;
     	font-size: 1.1rem;
+			color: $black;
+			@include no-bullets;
+			@include no-underline;
 
-			a{
-				@include no-bullets;
-				@include no-underline;
+			 a{
+				color: $black;
 
+				&:link, &:visited{
+					text-decoration: none;
+					color: $black;
+
+				}
+
+				&:hover{
+					background-color: darker($orange);
+				}
 			}
 
 		}
