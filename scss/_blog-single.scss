@@ -1,1 +1,55 @@
-@import "var"
+@import "var";
+
+///////////// footer
+footer {
+  padding: 15px 15px;
+  border-top: 15px $white solid;
+  background-color: lighter($teal);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  footer > *{
+    flex: 1 1 3fr;
+  }
+
+  .footer__contact{
+
+    ul{
+      display:flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+
+      li{
+        @include no-bullets;
+        padding: 15px 15px;
+
+        a{
+
+          &:link, &:visited{
+            color: white;
+          }
+
+          &:hover{
+            color: $orange;
+          }
+        }
+
+      }
+    }
+  }
+
+
+  .footer__blog{
+    display: none;
+
+    .blog__thumb img{
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+
+    }
+  }
+
+}
