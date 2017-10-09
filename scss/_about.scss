@@ -40,6 +40,8 @@ background-color: $orange;
     height: 100%;
     //padding: 20px;
     //margin-right: 5px;
+    padding: 15px 15px;
+
 
 
     & img{
@@ -54,6 +56,8 @@ background-color: $orange;
     height: 100%;
     //padding: 20px;
     flex: 1 1 50%;
+    padding: 15px 15px;
+
 
     h2{
       text-align: center;
@@ -66,6 +70,7 @@ background-color: $orange;
 //////////// facts
 .facts{
 
+ padding: 15px 15px;
   h2{
     text-align: center;
   }
@@ -76,6 +81,7 @@ background-color: $orange;
 
       li{
         padding: 15px 0;
+        @include no-bullets;
       }
     }
 }
