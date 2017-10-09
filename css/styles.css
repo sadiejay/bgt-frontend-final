@@ -671,11 +671,20 @@ ul {
   background: #4ABD9D;
   width: 100px;
   height: 100px; }
+  .mask a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
 
 .fb--mask {
   -webkit-mask: url("../img/fb.svg") center center no-repeat;
   mask: url("../img/fb.svg") center center no-repeat;
-  z-index: 4; }
+  z-index: 4;
+  position: relative;
+  display: inline-block; }
 
 .insta--mask {
   -webkit-mask: url("../img/insta.svg") center center no-repeat;
