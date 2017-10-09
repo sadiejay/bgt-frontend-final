@@ -79,6 +79,7 @@ nav{
 				}
 
 				&:hover{
+					@include pulse();
 					//background-color: darker($blue);
 					border-bottom:: 1px solid darker($blue);
 					//padding: 5px;
